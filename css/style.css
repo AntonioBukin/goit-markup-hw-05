@@ -313,8 +313,12 @@ gap: 30px;
     position: absolute;
     bottom: 0%;
     left: 0%;
+    width: 100%;
+    height: 70px;
     background-color: var(--bg-color-text);
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pictures-work {
@@ -327,7 +331,6 @@ gap: 30px;
     font-size: 14px;
     line-height: 1,14;
     text-align: center;
-    padding: 27px 107px;
     text-transform: uppercase;
     color: var(--white-color);
 }
